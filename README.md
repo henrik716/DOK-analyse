@@ -98,3 +98,4 @@ Før vi genererer PDF-ene må vi rydde litt opp i resultatfilene:
   - **NærmesteObjekt-analysen** brukes ikke **Atlas** og du kan trykke på denne:
   <img src="https://user-images.githubusercontent.com/22092618/147095142-e0ff5e57-3f91-4007-8997-2debca598e28.png">
 
+## Gratulerer du har gjennomført en halvautomatisk DOK-analyse!!!
