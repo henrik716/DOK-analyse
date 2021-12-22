@@ -5,7 +5,7 @@ Under webinaret ble det uttrykt ønske om at arbeidet som var lagt inn skulle la
 Midlertidig opptak kan finnes her (skal flyttes til vimeo etter litt redigering):
 https://bit.ly/3spccPN
 
-**Arbeid gjennomført av HG. Schüller på vegne av Kartverket / Geonorge**
+**Metode påbegynt av HG. Schüller på vegne av Kartverket / Geonorge**
 
 ## Viktig info!
 Dette prosjektet tar kun utgangspunkt i DOK-datasett som er tilgjengelig i "Geonorge's massiv nedlastingsklient" og det er derfor ikke satt opp automatisk datahåndtering for andre enn disse dataene.
