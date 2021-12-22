@@ -80,7 +80,7 @@ Det er mulig å endre dette basert på allerede eksisterende filer som ligger i 
 **Tilbake til analysene**
 - Last inn konfigurasjonsfil for Områdeanalyse i dialog for batch-prosessering ved å trykke på mappe-ikonet
 - Trykk på **Run** / **Kjør**
-- Repterer analysen, men ved å høyreklikke på **NærmesteObjekt**
+- Repterer analysen for **NærmesteObjekt**
 
 Analysene er nå gjennomført og du kan lukke QGIS-prosjektet
 
