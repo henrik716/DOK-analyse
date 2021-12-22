@@ -50,7 +50,7 @@ Denne metoden tar utgangspunkt i at du har følgende programmer installert:
 - Finn frem til analysene under "Processing toolbox"/"Prosesseringsverktøykasse" - de ligger under **Project models / Prosjektmodeller**
 - Høyreklikk på Områdeanalyse og vel at du skal kjøre det som "batch"-prosess
 
-**Oppsett av konfig-fil for analyse - ett "lite" sidespor**
+**Oppsett av konfig-fil for analyse - (ett "lite" sidespor)**
 
 Det er mulig å endre dette basert på allerede eksisterende filer som ligger i config-mappen ved å bytte ut stiene som ligger der med f.eks Notepadd++, men her vises QGIS-metoden å fikse dette på
 - Velg fra åpne lag i modulen for batch-prosessering:
