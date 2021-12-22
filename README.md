@@ -19,12 +19,12 @@ Denne metoden tar utgangspunkt i at du har følgende programmer installert:
   - Brukes i Unzipper.bat
 
 ## Brukerveiledning
-**Innledende**
+### Innledende
 - Installer programmene over i avsnittet **avhengigheter**
 - Sett opp konfigurasjon for nedlasting av DOK-datasett i nedlastingsklienten
   - Velg at filene skal lagres i samme mappe hvor mappa "QGIS-analyse" og .bat filene ligger
 
-**Tilrettelegging av data**
+### Tilrettelegging av data
 - Kjør nedlasting av filene fra nedlastingsklienten
   - Denne kan settes opp til å kjøre f.eks. hver natt ved å bruke et program som **Task Schedueler** som kommer med windows dette vil sørge for at en har de mest oppdaterte dataene
 - Når filene er lastet ned til mappen åpner du programmet **"OSGeo4W Shell"** (dette kommer med QGIS-installasjonen)
@@ -35,9 +35,41 @@ Denne metoden tar utgangspunkt i at du har følgende programmer installert:
   - Vi ønsker deretter å flytte alle filene over i en Geopackage som skal brukes videre i QGIS-prosjektene - skriv følgende kommando og trykk enter:
   > **Geopackager.bat**
 
-**Kjøring av analyser**
+### Kjøring av analyser
 - Når dataene er tilrettelagt, så kan man åpne QGIS-prosjektet **QGIS-analyse.qgz** som man finner under QGIS-analyse
   - Om du får melding om at det er noen lag den ikke finner er det greit å trykke på "remove" - dette skjer blant annet i tilfeller hvor man ikke ønsker å gjennomføre analyser på alle dataene som prosjektet tar høyde for at kan være til stede
 - Finn frem til analysene under "Processing toolbox"/"Prosesseringsverktøykasse" - de ligger under **Project models / Prosjektmodeller**
 - Høyreklikk på Områdeanalyse og vel at du skal kjøre det som "batch"-prosess
-  - Velg
+
+**Oppsett av konfig-fil for analyse**
+
+Det er mulig å endre dette basert på allerede eksisterende filer som ligger i config-mappen ved å bytte ut stiene som ligger der med f.eks Notepadd++, men her vises QGIS-metoden å fikse dette på
+- Velg fra åpne lag i modulen for batch-prosessering:
+<img src="https://user-images.githubusercontent.com/22092618/147090278-d2850479-c76e-4ef7-98a9-7d9ad62e1839.png" width="75%">
+- Trykk på at du velger alle lagene, men fjern lagene "interesseområde" og "Teig" ettersom at vi ikke ønsker å gjennomføre analyse på de
+
+<img src="https://user-images.githubusercontent.com/22092618/147090946-3000b0bd-9203-43d6-aacb-27667f0973ff.png">
+
+- Velg laget **"interesseområde"** i den øverste raden på feltet Interesseområde og trykk så "autofill" og "fill down" / "fyll ned" - du vil da få dette laget valgt i alle radene for interesseområde
+<img src="https://user-images.githubusercontent.com/22092618/147092007-bae8df10-b420-48e4-9190-c8bc1b9342c4.png">
+
+- Trykk deretter på de tre prikkene **"..."** på den øverste raden under Områdeanalyse og velg at filene skal lagres i mappen "Results"
+  - Skriv inn følgende navn **Områdeanalyse_** på resultatfila:
+<img src="https://user-images.githubusercontent.com/22092618/147092545-a57ce5b1-d639-4092-85c6-ef5300bdc898.png">
+
+- Det vil deretter dukke opp følgende boks hvor du gjør disse valgene:
+<img src="https://user-images.githubusercontent.com/22092618/147092766-967c61c5-56b7-447a-95f7-639dbe5c5726.png">
+
+- Denne filen kan nå lagres sånn at den er klar til senere bruk ved å trykke på lagre-symbolet:
+<img src="https://user-images.githubusercontent.com/22092618/147093595-a1fad509-4780-4648-aa01-ec9092d3cdec.png">
+
+- Endre navnet på resultatfila til **NærmesteObjekt_** og lagre den konfigurasjonsfila også til senere bruk
+
+**Tilbake til analysene**
+- Last inn konfigurasjonsfil for Områdeanalyse i dialog for batch-prosessering ved å trykke på mappe-ikonet
+- Trykk på **Run** / **Kjør**
+- Repterer analysen, men ved å høyreklikke på **"NærmesteObjekt**
+- 
+Analysene er nå gjennomført og du kan lukke QGIS-prosjektet
+
+
