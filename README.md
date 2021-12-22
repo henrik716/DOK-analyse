@@ -2,6 +2,9 @@
 Dette Github-området inneholder en forenklet DOK-analyse som vist under webinaret "Fra Geonorges massiv nedlastingsklient til forenklet QGIS-analyse" 21. des 2021.
 Under webinaret ble det uttrykt ønske om at arbeidet som var lagt inn skulle lastes opp sånn at flere kunne bruke metoden for å gjennomføre analyser og at en skulle kunne komme med bidrag inn i metodikken/bygge videre på analysen.
 
+Midlertidig opptak kan finnes her (skal flyttes til vimeo etter litt redigering):
+https://bit.ly/3spccPN
+
 ## Viktig info!
 Dette prosjektet tar kun utgangspunkt i DOK-datasett som er tilgjengelig i "Geonorge's massiv nedlastingsklient" og det er derfor ikke satt opp automatisk datahåndtering for andre enn disse dataene.
 
@@ -94,6 +97,4 @@ Før vi genererer PDF-ene må vi rydde litt opp i resultatfilene:
   
   - **NærmesteObjekt-analysen** brukes ikke **Atlas** og du kan trykke på denne:
   <img src="https://user-images.githubusercontent.com/22092618/147095142-e0ff5e57-3f91-4007-8997-2debca598e28.png">
-
-#### Gratulerer du har nå gjennomført en halvautomatisk DOK-analyse
 
