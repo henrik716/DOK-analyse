@@ -16,7 +16,7 @@ Denne metoden tar utgangspunkt i at du har følgende programmer installert:
 - Geonorge's klient for massiv nedlasting: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/massivnedlastingsklient/
 - 7-zip: https://www.7-zip.org/download.html
 
-## Brukerveiledning på bruk
+## Brukerveiledning
 **Innledende**
 - Installer programmene over i avsnittet **avhengigheter**
 - Sett opp konfigurasjon for nedlasting av DOK-datasett i nedlastingsklienten
@@ -38,3 +38,4 @@ Denne metoden tar utgangspunkt i at du har følgende programmer installert:
   - Om du får melding om at det er noen lag den ikke finner er det greit å trykke på "remove" - dette skjer blant annet i tilfeller hvor man ikke ønsker å gjennomføre analyser på alle dataene som prosjektet tar høyde for at kan være til stede
 - Finn frem til analysene under "Processing toolbox"/"Prosesseringsverktøykasse" - de ligger under **Project models / Prosjektmodeller**
 - Høyreklikk på Områdeanalyse og vel at du skal kjøre det som "batch"-prosess
+  - Velg
