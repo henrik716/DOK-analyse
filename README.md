@@ -38,14 +38,21 @@ Denne metoden tar utgangspunkt i at du har følgende programmer installert:
 ### Kjøring av analyser
 - Når dataene er tilrettelagt, så kan man åpne QGIS-prosjektet **QGIS-analyse.qgz** som man finner under QGIS-analyse
   - Om du får melding om at det er noen lag den ikke finner er det greit å trykke på "remove" - dette skjer blant annet i tilfeller hvor man ikke ønsker å gjennomføre analyser på alle dataene som prosjektet tar høyde for at kan være til stede
+
+**Valg av interesseområde**
+- Du kan velge hvilket område du skulle ønske, enten du tegner det inn for hånd eller om du velger en teig i kartet
+  - Det **viktige** er at du eksporterer ut data og skriver over laget som ligger i mappen for QGIS-analyse som heter **interesseområde.gpkg**
+
+**Gjennomføring av selve analysen**
 - Finn frem til analysene under "Processing toolbox"/"Prosesseringsverktøykasse" - de ligger under **Project models / Prosjektmodeller**
 - Høyreklikk på Områdeanalyse og vel at du skal kjøre det som "batch"-prosess
 
-**Oppsett av konfig-fil for analyse**
+**Oppsett av konfig-fil for analyse - ett "lite" sidespor**
 
 Det er mulig å endre dette basert på allerede eksisterende filer som ligger i config-mappen ved å bytte ut stiene som ligger der med f.eks Notepadd++, men her vises QGIS-metoden å fikse dette på
 - Velg fra åpne lag i modulen for batch-prosessering:
 <img src="https://user-images.githubusercontent.com/22092618/147090278-d2850479-c76e-4ef7-98a9-7d9ad62e1839.png" width="75%">
+
 - Trykk på at du velger alle lagene, men fjern lagene "interesseområde" og "Teig" ettersom at vi ikke ønsker å gjennomføre analyse på de
 
 <img src="https://user-images.githubusercontent.com/22092618/147090946-3000b0bd-9203-43d6-aacb-27667f0973ff.png">
@@ -69,7 +76,24 @@ Det er mulig å endre dette basert på allerede eksisterende filer som ligger i 
 - Last inn konfigurasjonsfil for Områdeanalyse i dialog for batch-prosessering ved å trykke på mappe-ikonet
 - Trykk på **Run** / **Kjør**
 - Repterer analysen, men ved å høyreklikke på **"NærmesteObjekt**
-- 
+
 Analysene er nå gjennomført og du kan lukke QGIS-prosjektet
 
+## Generering av PDF-er
+Før vi genererer PDF-ene må vi rydde litt opp i resultatfilene:
+- Naviger til resultsmappen i **"OSGeo4W Shell"** :
+> **cd "navn på resultatmappe"**
+- Skriv deretter følgende kommando og trykk enter for å unzippe alle filene:
+> **Resultatsamler.bat** 
+- Gå til QGIS-analyse mappen og start prosjektet **PDF-generering.qgz**
+- Velg så layoutene og skriv til PDF:
+<img src="https://user-images.githubusercontent.com/22092618/147094725-5fa4e3ca-0ed3-4f0a-aa42-39400e9bb113.png">
+
+  - **Områdeanalysen** bruker noe som heter **Atlas** og skrives ut ved å trykke på denne knappen:
+  <img src="https://user-images.githubusercontent.com/22092618/147094947-3868f4b2-8069-4cdc-a392-2e37d322e4b7.png">
+  
+  - **NærmesteObjekt-analysen** brukes ikke **Atlas** og du kan trykke på denne:
+  <img src="https://user-images.githubusercontent.com/22092618/147095142-e0ff5e57-3f91-4007-8997-2debca598e28.png">
+
+#### Gratulerer du har nå gjennomført en halvautomatisk DOK-analyse
 
