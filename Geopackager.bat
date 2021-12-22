@@ -239,7 +239,7 @@ ogr2ogr -nln SkytefeltSjø -overwrite -f GPKG QGIS-analyse/inndata.gpkg -t_srs E
 ogr2ogr -nln SkytefeltLand -overwrite -f GPKG QGIS-analyse/inndata.gpkg -t_srs EPSG:25832 *Skytefelt_* skyteogovingsfelt
 :: Støy - Forsvarets skytbaner
 ogr2ogr -nln StøySkytebane -overwrite -f GPKG QGIS-analyse/inndata.gpkg -t_srs EPSG:25832 *_StoySkytebane_* stoy
-:: Støy - Forsvarets skytbaner
+:: Støy - Forsvarets flyplasser
 ogr2ogr -nln StøyForsvaretFly -overwrite -f GPKG QGIS-analyse/inndata.gpkg -t_srs EPSG:25832 *_StoysonerForsvaretsFlyplasser_* stoy
 
 
