@@ -14,7 +14,9 @@ Det er fult mulig å supplere med flere datasett, men da er en nødt til å gjø
 Denne metoden tar utgangspunkt i at du har følgende programmer installert:
 - QGIS (3.20 eller nyere): https://qgis.org/en/site/forusers/download.html
 - Geonorge's klient for massiv nedlasting: https://www.geonorge.no/verktoy/APIer-og-grensesnitt/massivnedlastingsklient/
+  - Brukes for automatisert nedlasting av data
 - 7-zip: https://www.7-zip.org/download.html
+  - Brukes i Unzipper.bat
 
 ## Brukerveiledning
 **Innledende**
