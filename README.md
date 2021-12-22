@@ -88,7 +88,7 @@ Analysene er nå gjennomført og du kan lukke QGIS-prosjektet
 Før vi genererer PDF-ene må vi rydde litt opp i resultatfilene:
 - Naviger til resultsmappen i **"OSGeo4W Shell"** :
 > **cd "navn på resultatmappe"** *(f.eks. cd C:\Users\schhen\Desktop\DOK-analyse\Results)*
-- Skriv deretter følgende kommando og trykk enter for å unzippe alle filene:
+- Skriv deretter følgende kommando og trykk enter for å samle alle resultatene i to nye filer:
 > **Resultatsamler.bat** 
 - Gå til QGIS-analyse mappen og start prosjektet **PDF-generering.qgz**
 - Velg så layoutene og skriv til PDF:
