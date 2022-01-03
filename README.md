@@ -55,7 +55,7 @@ Denne metoden tar utgangspunkt i at du har følgende programmer installert:
 **Oppsett av konfig-fil for analyse - (ett "lite" sidespor)**
 
 Det er mulig å endre dette basert på allerede eksisterende filer som ligger i config-mappen ved å bytte ut stiene som ligger der med f.eks Notepadd++, men her vises QGIS-metoden å fikse dette på
-- Velg fra åpne lag i modulen for batch-prosessering:
+- Velg fra åpne lag i modulen for batch-prosessering (kommer opp om du trykker på høyresiden i "autofill" feltet):
 <img src="https://user-images.githubusercontent.com/22092618/147090278-d2850479-c76e-4ef7-98a9-7d9ad62e1839.png" width="75%">
 
 - Trykk på at du velger alle lagene, men fjern lagene "interesseområde" og "Teig" ettersom at vi ikke ønsker å gjennomføre analyse på de
