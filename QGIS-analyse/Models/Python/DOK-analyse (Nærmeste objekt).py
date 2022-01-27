@@ -79,7 +79,7 @@ class DokanalyseNrmesteObjekt(QgsProcessingAlgorithm):
             'GRASS_VECTOR_DSCO': '',
             'GRASS_VECTOR_EXPORT_NOCAT': False,
             'GRASS_VECTOR_LCO': '',
-            'column': ['objtype'],
+            'column': ['fid'],
             'dmax': -1,
             'dmin': -1,
             'from': outputs['FeltkalkulatorVdistanceEgenskap']['OUTPUT'],
